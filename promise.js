@@ -25,7 +25,7 @@ const promise = new Promise((resolve, reject) => {
 
 console.log(promise);
 
-Promise Method
+//Promise Method
 const getUser = new Promise((resolve, reject) => {
     setTimeout(() => {
         const success = true;
