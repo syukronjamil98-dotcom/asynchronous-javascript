@@ -25,5 +25,29 @@ const promise = new Promise((resolve, reject) => {
 
 console.log(promise);
 
+Promise Method
+const getUser = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        const success = true;
+
+        if (success) {
+            resolve({
+                id: 1,
+                name: "Syukron"
+            });
+        } else {
+            reject("Gagal mengambil data user");
+        }
+    }, 2000);
+});
+
+getUser
+    .then((user) => {
+        console.log(user);
+    })
+    .catch((error) => {
+        console.log(error);
+    });
+
 
 

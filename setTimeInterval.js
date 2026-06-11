@@ -1,7 +1,7 @@
 //callback setInterval: untuk menampilkan sesuatu secara periodik
 
-const setTime = () => {
+const setTime = ()=>{
     console.log(new Date().toString());
 }
 
-setInterval(setTime,1000);
+setInterval(setTime, 1000);

@@ -2,9 +2,9 @@
 console.log("Start");
 
 const setWaktu = () => {
-    console.log("This is asynchronous setTimeout");
+    console.log("This is asynchronous");
 }
 
-setTimeout(setWaktu, 2000);
+setTimeout(setWaktu,2000);
 
 console.log("End");
